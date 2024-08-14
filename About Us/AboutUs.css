@@ -1,5 +1,5 @@
 /* FONTS */
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Varela+Round&display=swap');
 /* ICONS */
 
 * {
@@ -17,7 +17,7 @@
 
 .header__container {
     width: 100%;
-    height: 80px;
+    height: 70px;
     background-color: #14A2C9;
     display: flex;
     justify-content: space-between;
@@ -26,7 +26,7 @@
 }
 
 .header__logo {
-    width: 148px;
+    width: 120px;
 }
 
 .header__list {
@@ -46,11 +46,11 @@
 }
 
 .login__link{
-    padding: 10px;
+    padding: 8px;
     background-color: #fff;
     color: #14A2C9;
     border-radius: 8px;
-    font-size: 16px;
+    font-size: 15px;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
@@ -58,7 +58,7 @@
 }
 
 .home {
-    width: 45px;
+    width: 38px;
 }
 /* END HEADER SECTION */
 
@@ -74,7 +74,7 @@
 .aboutus__title {
     margin-top: 60px;
     color: #fff;
-    font-size: 40px;
+    font-size: 30px;
     font-family: "Anton", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -82,10 +82,9 @@
 }
 
 .aboutus__content--container {
-    max-width: 560px;
+    max-width: 460px;
     width: 100%;
     height: 720px;
-    background-color: #fff;
     position: absolute;
     top: 210px;
     left: 50%;
@@ -96,13 +95,13 @@
 }
 
 .img__content--container {
-    max-width: 560px;
+    max-width: 460px;
 }
 
 .aboutus__subtitle--content {
     color: #14A2C9;
     margin-top: 40px;
-    font-size: 45px;
+    font-size: 35px;
     letter-spacing: 5px;
     font-family: "Varela Round", sans-serif;
     font-weight: 800;
@@ -110,10 +109,10 @@
 }
 
 .aboutus__mini-subtitle--content {
-    font-size: 17px;
+    font-size: 13px;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 500;
+    font-weight: 700;
     font-style: normal;
 }   
 
@@ -121,9 +120,138 @@
     margin-top: 30px;
     text-align: center;
     text-wrap: balance;
-    font-size: 20px;
+    font-size: 18px;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 300;
+    font-weight: 400;
     font-style: normal;
+}
+/* END ABOUT US SECTION */
+
+.separator__box {
+    width: 100%;
+    height: 650px;
+}
+
+/* MISSION SECTION */
+.mission__img {
+    width: 450px;
+}
+.mission__box {
+    width: 100%;
+    display: flex;
+    padding: 0 100px;
+    padding-bottom: 150px;
+}
+
+.mission__title {
+    font-size: 30px;
+    letter-spacing: 5px;
+    color: #076580;
+    font-family: "Radio Canada Big", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.mission__content {
+    margin-top: 25px;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.6;
+
+}
+/* END MISSION SECTION */
+
+/* CONTACT/INFO SECTION */
+.info__box {
+    width: 100%;
+    background-color: #14A2C9;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.6;
+    padding-bottom: 50px;
+}
+
+.info__title {
+    font-size: 35px;
+    letter-spacing: 2px;
+    color: #fff;
+    font-family: "Radio Canada Big", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.info-grid__box {
+    display: grid;
+    padding: 25px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 3fr));
+    grid-template-rows: 325px;
+    gap: 20px;
+}
+
+.info-item {
+    display: flex;
+    color: #fff;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.info__img-item {
+    width: 120px;
+}
+
+.info__title-item {
+    color: #0095be;
+    font-size: 30px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-weight: 900px;
+}
+
+.info__content-box {
+    width: 90%;
+    height: 70%;
+    background-color: #fff;
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 10px 20px;
+}
+
+.info__content-item {
+    text-wrap: pretty;
+    padding-top: 7px;
+    font-size: 16px;
+    text-align: center;
+    color: #004558;
+}
+/* END INFO SECTION */
+
+/* FOOTER SECTION */
+.footer__box {
+    width: 100%;
+    height: 30vh;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__list {
+    color: #004558;
+    text-align: center;
+    list-style: none;
+    font-size: 20px;
+    
 }

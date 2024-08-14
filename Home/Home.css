@@ -1,0 +1,61 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Varela+Round&display=swap');
+/* ICONS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+
+.header__container {
+    width: 100%;
+    height: 70px;
+    background-color: #14A2C9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+}
+
+.header__logo {
+    width: 120px;
+}
+
+.header__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.header__element {
+    list-style: none;
+}
+
+.header__link{
+    text-decoration: none;
+    color: #fff;
+}
+
+.login__link{
+    padding: 8px;
+    background-color: #fff;
+    color: #14A2C9;
+    border-radius: 8px;
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.home {
+    width: 38px;
+}
